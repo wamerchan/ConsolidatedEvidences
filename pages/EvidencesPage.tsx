@@ -179,6 +179,10 @@ const EvidencesPage: React.FC = () => {
           <img src="/mindmap.png" alt="Mind Map" className="rounded-lg shadow-lg w-full h-auto" />
         </EvidenceCard>
 
+        <EvidenceCard title="Test Card">
+          <p>This is a test card to verify git functionality.</p>
+        </EvidenceCard>
+
       </div>
 
       <ImageModal

@@ -5,9 +5,9 @@ export const posts: Post[] = [
   {
     id: 'critical-thinking-media-literacy',
     title: 'Critical Thinking and Media Literacy: How to Spot Fake News',
-    author: 'Jane Doe',
+    author: 'William Merchan',
     date: 'August 15, 2024',
-    imageUrl: 'https://picsum.photos/seed/fakenews/800/400',
+    imageUrl: '/fakenews.jpg',
     snippet: 'In today\'s world, we see a lot of information online. Some of it is true, but some is "fake news". Learning to see the difference is a very important skill.',
     content: [
       {
@@ -16,7 +16,7 @@ export const posts: Post[] = [
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/seed/source/800/500',
+        src: '/fakenuevosiglo.jpeg',
         alt: 'A person reading news on a phone and a laptop, looking thoughtful.'
       },
       {
@@ -45,9 +45,9 @@ export const posts: Post[] = [
   {
     id: 'crime-and-punishment-bogota',
     title: 'Crime and Punishment: Staying Safe in Bogotá',
-    author: 'John Smith',
+    author: 'William Merchan',
     date: 'August 10, 2024',
-    imageUrl: 'https://picsum.photos/seed/bogota/800/400',
+    imageUrl: '/bogota.jpg',
     snippet: 'Bogotá is a big and exciting city in Colombia. It has great food, friendly people, and beautiful places. But like any big city, it has some problems with crime. It is important to know about these dangers to stay safe.',
     content: [
       {
@@ -60,8 +60,8 @@ export const posts: Post[] = [
       },
       {
         type: 'image',
-        src: 'https://picsum.photos/seed/street/800/500',
-        alt: 'A busy street in a large city.'
+        src: '/cosquilleo.jpg',
+        alt: 'Cosquilleo'
       },
       {
         type: 'text',
@@ -74,6 +74,11 @@ export const posts: Post[] = [
       {
         type: 'text',
         content: 'Living in or visiting Bogotá can be a wonderful experience. The key is to be smart and prepared. Do not show expensive things like jewelry, cameras, or a lot of cash in public. Always know where your bag and phone are. Use trusted taxi apps instead of hailing a cab on the street, especially at night. By being informed and careful, you can greatly reduce your risk and enjoy all the good things Bogotá has to offer.'
+      },
+      {
+        type: 'image',
+        src: '/thief.png',
+        alt: 'Thiefs in Bogota city'
       }
     ]
   }

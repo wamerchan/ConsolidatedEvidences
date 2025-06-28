@@ -124,8 +124,8 @@ const EvidencesPage: React.FC = () => {
           </div>
         </EvidenceCard>
 
-        <EvidenceCard title="Video-Exposicion: Critical Thinking">
-           <YouTubeEmbed videoId="ICxUaNL7tTk" title="Video-Exposicion" />
+        <EvidenceCard title="Video-Exposicion: Interview">
+           <YouTubeEmbed videoId="ICxUaNL7tTk" title="Video-Interview" />
         </EvidenceCard>
 
         <EvidenceCard title="Chronicle: Steve Wozniak">
@@ -140,7 +140,7 @@ const EvidencesPage: React.FC = () => {
           </a>
         </EvidenceCard>
 
-        <EvidenceCard title="Video-Sustentacion: Crime and Punishment">
+        <EvidenceCard title="Video-Sustentacion: Sesquile Cundinamarca">
           <YouTubeEmbed videoId="YfYWl7b-9eM" title="Sustentacion" />
         </EvidenceCard>
 
@@ -177,10 +177,6 @@ const EvidencesPage: React.FC = () => {
 
         <EvidenceCard title="Mind Map">
           <img src="/mindmap.png" alt="Mind Map" className="rounded-lg shadow-lg w-full h-auto" />
-        </EvidenceCard>
-
-        <EvidenceCard title="Test Card">
-          <p>This is a test card to verify git functionality.</p>
         </EvidenceCard>
 
       </div>
